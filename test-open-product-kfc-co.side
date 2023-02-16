@@ -1,0 +1,152 @@
+{
+  "id": "78e7990f-c8ce-41ff-92d6-45894aa761d8",
+  "version": "2.0",
+  "name": "asdasd",
+  "url": "https://kfc.co/menu/combos-1C111CD0-CEFF-E911-A958-000D3A0D463B",
+  "tests": [{
+    "id": "7ed6a883-436d-44fa-996c-d965d36c40c9",
+    "name": "awsdasd",
+    "commands": [{
+      "id": "dadd193c-2c64-42dc-9c51-efcb06bc3910",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef803985-f871-4abc-a419-f336cac92b7c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d962535-8cfb-4fdc-b1c0-5abba748721d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e882dcfc-e0a0-4798-b92e-15d09394550f",
+    "name": "asdsdaasdasd",
+    "commands": [{
+      "id": "11213d21-d155-4553-b3fe-987f108fea74",
+      "comment": "",
+      "command": "open",
+      "target": "https://kfc.co/menu/combos-1C111CD0-CEFF-E911-A958-000D3A0D463B",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "204fdaa9-84ff-4c03-b673-0d57bf4e7432",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1401x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12e50d4f-9391-4a48-9ca4-795738ad5353",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product_173 .product-component-image",
+      "targets": [
+        ["css=#product_173 .product-component-image", "css:finder"],
+        ["xpath=//img[@alt='Combo Pop Corn']", "xpath:img"],
+        ["xpath=//div[@id='product_173']/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d91c78f5-3a43-49e0-83b9-af945b411f08",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#product_33 .product-component-price",
+      "targets": [
+        ["css=#product_33 .product-component-price", "css:finder"],
+        ["xpath=//div[@id='product_33']/div/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5aa73410-7b41-4f64-b1a0-ed8a5574c11d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#product_33 .product-component-price",
+      "targets": [
+        ["css=#product_33 .product-component-price", "css:finder"],
+        ["xpath=//div[@id='product_33']/div/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e99f4223-3030-4997-9d75-9eca67b2be74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-check:nth-child(2) > .form-check-label",
+      "targets": [
+        ["css=.form-check:nth-child(2) > .form-check-label", "css:finder"],
+        ["xpath=//div[@id='inside-product-cart-form']/div[3]/div[2]/div/div/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'MANZANA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c6d3e80-0266-4ce7-8d78-817c7dbdffe7",
+      "comment": "",
+      "command": "click",
+      "target": "id=options_additional_information",
+      "targets": [
+        ["id=options_additional_information", "id"],
+        ["name=options[additional_information]", "name"],
+        ["css=#options_additional_information", "css:finder"],
+        ["xpath=//input[@id='options_additional_information']", "xpath:attributes"],
+        ["xpath=//div[@id='inside-product-cart-form']/div[3]/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af8306a1-d4b5-4ae4-a84a-edfcc20be580",
+      "comment": "",
+      "command": "type",
+      "target": "id=options_additional_information",
+      "targets": [
+        ["id=options_additional_information", "id"],
+        ["name=options[additional_information]", "name"],
+        ["css=#options_additional_information", "css:finder"],
+        ["xpath=//input[@id='options_additional_information']", "xpath:attributes"],
+        ["xpath=//div[@id='inside-product-cart-form']/div[3]/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[4]/input", "xpath:position"]
+      ],
+      "value": "qweqwe"
+    }, {
+      "id": "80be3acb-c9ae-44cb-aaec-208573a895e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button__text",
+      "targets": [
+        ["css=.button__text", "css:finder"],
+        ["xpath=//button[@id='add-to-cart-button']/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19f14245-0c25-49d0-9900-7adb4c4e9ddf",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5dd14ebd-4883-4c84-8481-7b97a3f4eff5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7ed6a883-436d-44fa-996c-d965d36c40c9"]
+  }],
+  "urls": ["https://kfc.co/menu/combos-1C111CD0-CEFF-E911-A958-000D3A0D463B"],
+  "plugins": []
+}
